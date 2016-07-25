@@ -1,0 +1,30 @@
+div{
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	float: left;
+}
+
+#one {
+	background-color: #FF0000
+
+}
+
+#two{
+	background-color: #FFA07A
+
+}
+
+#three{
+	background-color: #FF00FF
+
+}
+
+#four{
+	background-color: #00FF00
+
+}

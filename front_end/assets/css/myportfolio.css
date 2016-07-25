@@ -1,0 +1,110 @@
+/*naviagtion bar, horizontal */
+.topnav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    font-family: arial;
+    left: 0; /*center the nav bar*/
+    right: 0; /*center the nav bar*/
+    margin: auto; /*center the nav bar*/
+    text-align: center;
+  
+    
+}
+.topnav ul {
+/*    float: left;*/
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.topnav li.icon {display: none;}
+
+/* create header with pic under nav bar*/
+.header {
+    background-image:url('http://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg'); 
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 30px;
+    background-attachment: fixed;
+    background-position:  center -238px;
+    height: 500px
+
+
+}
+
+.header h1 {
+    
+    top:18;
+    left:0;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+
+/*page attribute*/
+#page1{
+    height: 1000px;
+
+}
+
+#page2{
+    height: 1000px;
+
+}
+
+#page3{
+    height: 1000px;
+
+}
+
+#page4{
+    height: 1000px;
+
+}
+
+/*gallery with hover attributes*/
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}

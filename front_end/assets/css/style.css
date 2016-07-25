@@ -1,0 +1,36 @@
+/*body {
+	background-image: url("http://smartfuse.s3.amazonaws.com/rhyddings.co.uk/uploads/2016/06/Euro-2016.jpg");
+	
+}*/
+
+h1	{	
+	font-size: 24px;
+	background-image: url("http://smartfuse.s3.amazonaws.com/rhyddings.co.uk/uploads/2016/06/Euro-2016.jpg");
+}
+
+a: hover{
+	font-size: 24px;
+}
+
+p {
+	font-size: 24px; 
+	color: darkblue;
+	text-decoration: underline;
+}
+
+ol{
+ 	color: red;
+}
+
+li {	
+	color: green;
+}
+
+.orange{
+	color: orange;
+
+}
+
+#brown{
+	color: brown;
+}

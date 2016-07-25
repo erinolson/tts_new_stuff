@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Hi, I'm Arturo Caesar</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+ 	<link rel="stylesheet" type="text/css" href="assets/css/myportfolio.css"/>
+
+<!-- create a smooth scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</head>
+
+<body>
+ 
+<br>
+
+<!-- create a fixed navigation bar, with an active highlight -->
+
+<div class = "topnav">
+	<ul>
+  		<li><a href="#aboutme">About Me</a></li>
+  		<li><a href="#whatilike">What I Like</a></li>
+  		<li><a href="#mysystem">My System</a></li>
+  		<li><a href="#connect">Connect</a></li>
+  		<li class="icon"></li>
+	</ul>
+</div>
+	
+<!-- create a header with background pic and animation if needed-->	
+<div class = "header">
+    <h1 class="animated fadeInDown"> Hi, I'm Arturo G. Caesar</h1>
+</div>
+
+<br>	
+<!-- create a one page blog -->
+<div id="page1">
+  <a id="aboutme" class="smooth"></a>
+    <h1 style="color: black; font-family: Arial; background-color: white; text-align: center; ">What I've Done So Far</h1>
+
+
+	<h3 style =	"">Tech Talent South</h3>
+				<p> <b>Prospective Coder,</b> <i>Since Summer 16</i></p>
+				<p>Charlotte, NC</p>
+				<p>I am working to build amazing applications.</p>
+		
+
+	<h3 style =	"">Revival Home Health Care</h3>
+			<p> <b>Clinical Assistant,</b> <i>March 2015 - June 2016</i></p>
+			<p>Brooklyn, NY</p>
+			<p></p>
+
+
+
+	<h3> <a href="http://www.ballerciseelite.com/" target = "_blank"> Ballercise Elite </a> </h3>
+			<p> <b>Co-Founder,</b> <i>September 2015 - Present</i></p>
+			<p>Brooklyn, NY</p>
+			<p>It gives me a blessing to be able to pass on my wisdom when it comes to basketball.</p>
+
+		
+
+	<h3 style =	"">Dr. Arturo A. Caesar M.D P.C</h3>
+			<p> <b>Office Manager,</b> <i>January 2012- March 2015</i></p>
+			<p>Harlem, NY</p>
+			<p>......</p>
+
+		
+
+	<h3 style =	"">Wake Forest University</h3>
+			<p> <b>Clinical Assistant,</b> <i>earned May 2011</i></p>
+			<p>Winston-Salem, NC</p>
+			<p>......</p>
+
+	
+
+</div>
+ 
+ <br>
+
+<div id="page2">
+  <a id="whatilike" class="smooth"></a>
+  <h1 style="color: black; font-family: Arial; background-color: white; text-align: center;">What Means The World To Me?</h1>
+
+
+  <div class="img">
+  <a target="_blank" href="assets/img/montegobaysunset.jpg">
+    <img src="assets/img/montegobaysunset.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+<div class="img">
+  <a target="_blank" href="assets/img/dbzbigcartel.jpg">
+    <img src="assets/img/dbzbigcartel.jpg" alt="Forest" width="600" height="400">
+  </a>
+</div>
+
+<div class="img">
+  <a target="_blank" href="assets/img/IMG_6187.jpg">
+    <img src="assets/img/IMG_6187.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+</div>
+
+<div class="img">
+  <a target="_blank" href="assets/img/bape1.png">
+    <img src="assets/img/bape1.png" alt="Mountains" width="600" height="400">
+  </a>
+</div>
+    
+
+	<!-- <img src="assets/img/montegobaysunset.jpg" style="width:100px;height:100px;">
+
+	<img src="assets/img/dbzbigcartel.jpg" style="width:100px;height:100px;"">
+
+	<img src="assets/img/IMG_6187.jpg" style="width:100px;height:100px;">
+
+	<img src="assets/img/bape1.png" style="width:100px;height:100px;"> -->
+
+
+</div>
+
+<br>
+ 
+<div id="page3">
+  <a id="mysystem" class="smooth"></a>
+    <h1 style="color: black; font-family: Arial; background-color: white; text-align: center;">Mamba System-</h1>
+	<a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Never Change</a> <br>
+
+	<a href="http://www.marketwatch.com/story/how-time-can-turn-3000-into-50-million-2015-12-02" target = "_blank"> Get Schooled, Save Money</a> <br>
+
+	<!-- <a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Be Yourself </a> 
+
+	<a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Be Yourself </a> 
+
+	<a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Be Yourself </a> 
+
+	<a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Be Yourself </a> 
+
+	<a href="http://blogmaverick.com/2007/01/16/why-i-dont-wear-a-suit-and-cant-figure-out-why-anyone-does/" target = "_blank"> Be Yourself </a>   -->
+
+</div>
+
+<br>
+
+<div id="page4">
+  <a id="connect" class="smooth"></a>
+    <h1 style="color: black; font-family: Arial; background-color: white; text-align: center;;">Link Up!</h1>
+
+<h2>Hello, Brooklyn. </h2>
+
+<a href="https://twitter.com/blvxkpope" target = "_blank" class="twitter-follow-button" data-show-count="false">Follow @blvxkpope</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+
+<a href="https://www.instagram.com/ballerciseelite/" target = "_blank" class="instagram-follow-button" data-show-count="false">Follow @ballerciseelite</a><script async src="//platform.instagram.com/widgets.js" charset="utf-8"></script><br>
+</div>
+
+
+
+
+
+
+<br>
+
+
+<!-- <table border="1 px">
+	<thead>
+		<th>Heading</th>
+	</thead>
+	<tbody>
+	<tr>
+		<td>column</td>
+		<td>column 2</td>
+	</tr>
+	<tr>
+		<td>data 1</td>
+		<td>data 2</td>
+	</tr>
+	</tbody>
+</table> -->
+
+<footer>
+Copyright &copy; Arturo 2016
+</footer>
+
+</body>
+</html>
